@@ -1,6 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
-
 const ToDoList = () => {
   return (
     <div style={{ border: "1px solid black", width: "200px" }}>
@@ -16,14 +13,14 @@ const ToDoList = () => {
 
 function App() {
   return (
-    <di style={{ display: "flex" }}>
+    <div style={{ display: "flex" }}>
       {/* <ToDoList />
       <ToDoList />
       <ToDoList /> */}
       <ToDoList />
       <ToDoList />
       <ToDoList />
-    </di>
+    </div>
   );
 }
 
